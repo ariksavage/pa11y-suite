@@ -19,10 +19,10 @@ const config = {
     standard: standard.replace(' 2.0 ','2')
 }
 
+// Globals, will be manipulated by multiple functions.
 const AllResults = [];
-
 let tests = [];
-const client = 'NICB';
+
 
 /**
 * Recursive function to run Pa11y on the global list of tests.
@@ -124,4 +124,6 @@ function pa11yTestSiteMap(sitemap){
   });
 }
 
+// The good stuff. Start your tests here:
+const client = 'NICB';
 pa11yTestList(`./clients/${client.toLowerCase()}.json`);
