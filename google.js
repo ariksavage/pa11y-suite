@@ -22,12 +22,21 @@ const CREDENTIALS_PATH = 'config/credentials.json';
 */
 function googleAPI(cb, args){
   // Load client secrets from a local file.
-  fs.readFile(CREDENTIALS_PATH, (err, content) => {
-    if (err) return console.log('Error loading client secret file:', err);
-    // Authorize a client with credentials, then call the Google Docs API.
+  if (!fs.existsSync(CREDENTIALS_PATH)){
+    console.log('Visit https://developers.google.com/docs/api/quickstart/nodejs');
+    console.log('Click the button in Step 1 to create a new Cloud Platform project and automatically enable the Google Docs API.');
+    console.log('PROJECT NAME: Sandstorm Pa11y');
+    console.log('CONFIGURE YOUR OAUTH CLIENT: Desktop App');
+    console.log('In resulting dialog click DOWNLOAD CLIENT CONFIGURATION and save the file credentials.json to the config directory.');
+    return;
+  } else {
+    fs.readFile(CREDENTIALS_PATH, (err, content) => {
+      if (err) return console.log('Error loading client secret file:', err);
+      // Authorize a client with credentials, then call the Google Docs API.
 
-    var auth = authorize(JSON.parse(content), cb, args);
-  });
+      var auth = authorize(JSON.parse(content), cb, args);
+    });
+  }
 }
 
 /**
@@ -123,6 +132,9 @@ function createDoc(auth, args){
         console.error(err);
         return;
       }
+          if(typeof args.cb == 'function'){
+            args.cb(res);
+          };
       script.projects.create(
         {
           requestBody: {
@@ -131,10 +143,8 @@ function createDoc(auth, args){
           }
         },
         (err, res) => {
-          if(typeof args.cb == 'function'){
-            args.cb(res);
-          }
           if (err) {
+            console.error(err);
             return;
           }
           script.projects.updateContent(
@@ -182,12 +192,12 @@ function createGoogleDoc(title, body, type = 'text/html'){
     type: type
   };
 
-  const creatDocCb = function(res){
-    const docUrl = `https://docs.google.com/document/d/${res.config.data.parentId}`;
+  const createDocCb = function(res){
+    const docUrl = `https://docs.google.com/document/d/${res.data.id}`;
     console.log(`Document created: ${docUrl}`);
     open(docUrl);
   }
-  args.cb = creatDocCb;
+  args.cb = createDocCb;
 
   googleAPI(createDoc, args);
 }
