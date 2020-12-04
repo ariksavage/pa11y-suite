@@ -1,7 +1,7 @@
 [
   {
     "issue": "Form_elements_must_have_labels",
-    "description": "<p>Programmatically associate labels with all form controls. The recommended method for most circumstances is to use the label element and an explicit association using the for and id attributes. The examples here are ordered from the most common acceptable solution to the least common acceptable solution.</p>"
+    "description": "<p>Programmatically associate labels with all form controls. The recommended method for most circumstances is to use the label element and an explicit association using the for and id attributes.</p>"
   },
 
   {
