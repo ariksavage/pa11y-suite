@@ -1,0 +1,53 @@
+[
+  {
+    "issue": "Form_elements_must_have_labels",
+    "description": "<p>Programmatically associate labels with all form controls. The recommended method for most circumstances is to use the label element and an explicit association using the for and id attributes. The examples here are ordered from the most common acceptable solution to the least common acceptable solution.</p>"
+  },
+
+  {
+    "issue": "Frames_must_have_title_attribute",
+    "description": "<p>Frames like youtube embeds must have a title. This is particularly an issue with youtube embeds within WYSIWYG content. Each instance will have to be updated to add a title attribute.</p><p>These are only the results from representative pages; ultimately a full scan of all pages should be performed.</p>"
+  },
+
+  {
+    "issue": "IDs_of_active_elements_must_be_unique",
+    "description": "<p>Duplicate active IDs are common validation errors that can break the accessibility of labels for focusable elements, forms, table header cells, etc.</p><p>To fix the problem, change the duplicate ID value to ensure each ID is unique. Unique ID values differentiate each focusable element from another and prevent invalid markup and the active ID instance is acted upon by client-side scripting, or where assistive technologies typically only reference the active ID of repeated elements.</p><p>Good markup eliminates at least one possible source of accessibility problems. WCAG 1.0 used to have a provision which explicitly required the use of valid markup. That requirement has been taken out of WCAG 2.0. We mention it here because valid markup is a quick path toward ensuring accessibility. Most validation issues are usually inconsequential for accessibility (e.g., un-encoded ampersands). Other ID validation errors are very important and may cause issues relating to how assistive technology interacts with the page and renders the page to the end user.</p>"
+  },
+  {
+    "issue": "Links_must_have_discernible_text",
+    "description": "<p>Ensure that all links have a textual description. Screen readers require text to inform a user to a link's purpose. In the case of images wrapped in links, this can be alt text or an aria-label.</p>"
+  },
+  {
+    "issue": "Elements_must_have_sufficient_color_contrast",
+    "description": "<p>Ensure all text elements have sufficient color contrast between the text in the foreground and background color behind it.</p><p>Ensure color contrast of at least 4.5:1 for small text or 3:1 for large text, even if text is part of an image. Large text has been defined in the requirements as 18pt (24 CSS pixels) or 14pt bold (19 CSS pixels). Note: Elements found to have a 1:1 ratio are considered \"incomplete\" and require a manual review.</p>"
+  },
+  {
+    "issue": "Document_must_have_one_main_landmark",
+    "description": "<p>Ensure there is a navigation point to the primary content of the page. If the page contains iframe elements, each iframe should contain either no main landmarks or just one.</p><p>Ensure all content is contained within a landmark region, designated with HTML5 landmark elements and/or ARIA landmark regions.</p><p>It is a best practice to use both HTML 5 and ARIA landmarks to ensure all content is contained within a navigational region. In HTML5, you should use elements like header, nav, main, and footer. Their ARIA counterparts are role=\"banner\", role=\"navigation\", role=\"main\", and role=\"contentinfo\", in that order. By using both HTML5 and ARIA markup, you make the webpage more robust and functional no matter what screen reader technology is used.</p>"
+  },
+  {
+    "issue": "Page_must_contain_a_level-one_heading",
+    "description": "<p>Ensure that the page or at least one of its frames contains a level-one heading.</p><p>Generally, it is a best practice to ensure that the beginning of a page's main content starts with a h1 element, and also to ensure that the page contains only one h1 element.</p><p>Usually the best practice is to start the main content of a web page with a level 1 heading (h1), with no other headings before this high-level heading. Mark the sub-sections of the page as level 2 headings (h2). If the level 2 sections contain sub-sections, mark these children as level 3 sections (h3) and so on.</p>"
+  },
+  {
+    "issue": "All_page_content_must_be_contained_by_landmarks",
+    "description": "<p>Ensure all content is contained within a landmark region, designated with HTML5 landmark elements and/or ARIA landmark regions.</p><p>Screen reader users can navigate to a section based on its HTML element or ARIA Landmark. For example, you might use ARIA Landmarks to provide a simple replacement for a skip navigation link, though the replacement is only useful for users of screen readers. Sighted users or people using screen enlargers won't benefit from the addition, so it's not a good practice to substitute ARIA landmarks for skip navigation links altogether.</p>"
+  },
+  {
+    "issue": "Heading_levels_should_only_increase_by_one",
+    "description": "<p>Ensure headings are in a logical order. For example, check that all headings are marked with h1 through h6 elements and that these are ordered hierarchically. For example, the heading level following an h1 element should be an h2 element, not an h3 element. Finally, don't use heading mark up on text that isn't actually a heading.</p><p>To ensure you are writing effective headings, read through the headings on the page and ask yourself if you get a general sense of the page’s contents based only on the information provided by the headings. If the answer is \"no\", consider rewriting your headings. While you are at it, be sure that you are using the heading markup (h1 through h6's) if and only if you are writing a heading. While applying such markup is a quick way to make text stand out, using it for anything other than headings will make navigating a web page more confusing for users of assistive technology.</p><p>This is particularly an issue when h4, h5, h6 tages are used to apply styles (such as bold, all caps, or a color). Such text should be styled via CSS and class names, and user controled WYSIWYG fields should allow the user to choose from predetermined styles.</p>"
+  },
+  {
+    "issue": "Ensure_that_scrollable_region_has_keyboard_access",
+    "description": "<p>Checks scrollable content for focusable elements enabling keyboard navigation. Keyboard navigation should not fail when focus moves to an element within a scrollable region.</p><p>Elements that have scrollable content should be accessible by keyboard.</p>"
+  },
+  {
+    "issue": "id_attribute_value_must_be_unique",
+    "description": "<p>Duplicate active IDs are common validation errors that can break the accessibility of labels for focusable elements, forms, table header cells, etc.</p><p>To fix the problem, change the duplicate ID value to ensure each ID is unique. Unique ID values differentiate each focusable element from another and prevent invalid markup and the active ID instance is acted upon by client-side scripting, or where assistive technologies typically only reference the active ID of repeated elements.</p><p>Good markup eliminates at least one possible source of accessibility problems. WCAG 1.0 used to have a provision which explicitly required the use of valid markup. That requirement has been taken out of WCAG 2.0. We mention it here because valid markup is a quick path toward ensuring accessibility. Most validation issues are usually inconsequential for accessibility (e.g., un-encoded ampersands). Other ID validation errors are very important and may cause issues relating to how assistive technology interacts with the page and renders the page to the end user.</p>"
+  },
+
+  {
+    "issue": "Headings_must_not_be_empty",
+    "description": "<p>When at least one heading element (marked by &lt;h1&gt; through &lt;h6&gt;) is present, it is a best practice to ensure it contains content.</p>"
+  }
+]

@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"ms",
+				"masthead"
+			],
+			[
+				"dot",
+				"dotEnv"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ariksavage/Tools/a11y"
+	],
+	"file_history":
+	[
+		"/Users/ariksavage/Projects/NOW/nowfoods.local/data/nowfoods/html/sites/all/themes/nowfoods/templates/field--field-masthead.tpl.php",
+		"/Users/ariksavage/Projects/NOW/nowfoods.local/data/nowfoods/html/sites/all/modules/_custom/sd_securityheaders/sd_securityheaders.module",
+		"/Users/ariksavage/Projects/NOW/nowfoods.local/data/nowfoods/html/sites/all/themes/nowfoods/js/now_video.js",
+		"/Users/ariksavage/Projects/NOW/nowfoods.local/data/nowfoods/html/sites/all/themes/nowfoods/js/masthead.js",
+		"/Users/ariksavage/Projects/NOW/nowfoods.local/nowfoods.sublime-project",
+		"/Users/ariksavage/Projects/NOW/nowfoods.local/data/nowfoods/html/sites/all/themes/nowfoods/templates/now-video.php",
+		"/Users/ariksavage/Projects/NOW/nowfoods.local/data/nowfoods/html/sites/all/themes/nowfoods/templates/field--field-featured-content-row.tpl.php",
+		"/Users/ariksavage/Projects/NOW/nowfoods.local/data/nowfoods/html/sites/all/themes/nowfoods/scss/components/_masthead.scss",
+		"/Users/ariksavage/Projects/NOW/nowfoods.local/data/nowfoods/html/sites/all/themes/nowfoods/lib/clank-box.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/ssa.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/build-assets/css/ssa.css",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/ssa.info",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/js/ssa.js",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_node-feature.scss",
+		"/Users/ariksavage/Desktop/addmissions.local.html",
+		"/Users/ariksavage/Desktop/admissions.live.html",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/Gulpfile.js",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_header-logo.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_ssa-magazine-issue.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/images/ssa-magazine-square.svg",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/global/_colors.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_ssa-publications.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_bottom-row.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_events-archive.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_search-form.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_view-frontpage-slideshow.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_footer.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_view-organizations.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_featured-containers.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_alumni-spotlight-block.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_buttons.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/template.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/modules/views/theme/views-view-list.tpl.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/global/_patterns.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/templates/views-view-list.tpl.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/templates/_footer.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/templates/block--menu--menu-information.tpl.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_main-menu.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/templates/page.tpl.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/js/ssa-quicktabs.js",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/templates/page--front.tpl.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_course-catalog.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_information-menu.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/global/_text-styles.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_frontpage-stories.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_sidebar-menu.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_block-menu-menu-contact.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_quicktabs-news-events.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/js/ssa-sidebar-menu.js",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/templates/page--faculty.tpl.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/templates/page--course-catalog.tpl.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/templates/page--ssa_magazine_issue.tpl.php",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/modules/_features/ssa_views/ssa_views.views_default.inc",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/uofc-ssa.sublime-project",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/scss/components/_block-menu-menu-social-icons.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/zurb_foundation/scss/normalize.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/bower_components/foundation/scss/normalize.scss",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/package.json",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/modules/logo_block/logo_block.module",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/data/main/web/sites/all/themes/ssa/js/ssa-flexslider.js",
+		"/Users/ariksavage/Projects/UofC/uofc-ssa/.gitignore",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/partials/email/email3.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/partials/email/email2.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/.gitignore",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/sass/01-elements/_validation.scss",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/partials/email/enhance-headline.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/partials/email/enhance-percentages.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/partials/email/email-footer.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/partials/email/email-percentage.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/partials/email/table-row-image.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/partials/email/email4.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/sass/02-components/_form.scss",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/partials/email/table-row-full.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/email4.hbs",
+		"/Users/ariksavage/Projects/PECO/emails-landing-pages/src/templates/email3.hbs",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/theme/_sustainability.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/base/_mixins.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/theme/_sustainability_pillars.scss",
+		"/Users/ariksavage/Projects/NASBE/d8.nasbe.local/nasbe.sublime-project",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/custom.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/local/settings.php",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/theme/_paragraphs.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/theme/_sustainability_actions.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/theme/_sustainability_goals.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/theme/_sustainability_landing_page.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/modules/taxonomy/taxonomy-term.tpl.php",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/src/js/carousels.js",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/template.php",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/templates/node--sustainability-pillar--large-teaser.tpl.php",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/templates/taxonomy-term--un-sdgs.tpl.php",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/theme/_sidenav.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/components/_text-styles.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/scss/components/_patterns.scss",
+		"/Users/ariksavage/Projects/Crown/crown.local/data/crown/html/sites/all/themes/crown/templates/node--sustainability-pillar--pillars-with-sdgs.tpl.php",
+		"/Users/ariksavage/Documents/Sublime/Crown.sublime-project"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "a11y.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"field--field-mast",
+				"Theme: Nowfoods: Templates/field--field-masthead.tpl.php"
+			],
+			[
+				"views-view-li",
+				"U of C - SSA/data/main/web/sites/all/modules/views/theme/views-view-list.tpl.php"
+			],
+			[
+				"data/main/web/sites/all/themes/ssa/templates/block--menu--menu-information.tpl.php",
+				"U of C - SSA/data/main/web/sites/all/themes/ssa/templates/block--menu--menu-information.tpl.php"
+			],
+			[
+				"data/main/web/sites/all/themes/ssa/scss/ssa.scss",
+				"U of C - SSA/data/main/web/sites/all/themes/ssa/scss/ssa.scss"
+			],
+			[
+				"data/main/web/sites/all/themes/ssa/js/ssa-flexslider.js",
+				"U of C - SSA/data/main/web/sites/all/themes/ssa/js/ssa-flexslider.js"
+			],
+			[
+				"data/main/web/sites/all/themes/ssa/ssa.info",
+				"U of C - SSA/data/main/web/sites/all/themes/ssa/ssa.info"
+			],
+			[
+				"data/main/web/sites/all/themes/ssa/package.json",
+				"U of C - SSA/data/main/web/sites/all/themes/ssa/package.json"
+			],
+			[
+				"data/main/web/sites/all/modules/logo_block/logo_block.module",
+				"U of C - SSA/data/main/web/sites/all/modules/logo_block/logo_block.module"
+			],
+			[
+				"taxonomy-term.tpl",
+				"Crown/data/crown/html/modules/taxonomy/taxonomy-term.tpl.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 804.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 327.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
